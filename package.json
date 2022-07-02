@@ -1,0 +1,41 @@
+{
+  "name": "@lunarraid/webpack-pixi-texture-packer",
+  "version": "0.0.1",
+  "description": "Webpack texture packer for PixiJS",
+  "url": "https://github.com/lunarraid/webpack-pixi-texture-packer",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunarraid/webpack-pixi-texture-packer.git"
+  },
+  "keywords": [
+    "texture",
+    "packer",
+    "webpack",
+    "webpackplugin",
+    "texturepacker",
+    "texture-packer",
+    "sprites",
+    "spritesheet",
+    "export",
+    "sprite",
+    "2d"
+  ],
+  "author": "Raymond Cook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunarraid/webpack-pixi-texture-packer/issues"
+  },
+  "homepage": "https://github.com/lunarraid/webpack-pixi-texture-packer#readme",
+  "dependencies": {
+    "fast-glob": "^3.2.11",
+    "free-tex-packer-core": "^0.3.4",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "minimatch": "^5.1.0"
+  },
+  "peerDependencies": {
+    "pixi.js": "^6.0.0"
+  }
+}
