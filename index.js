@@ -1,5 +1,5 @@
-const exportedData = require('./virtual.loader.js!');
-const { autoDetectResource, BaseTexture, Texture, Rectangle, Loader } = require('pixi.js');
+import exportedData from './virtual.loader.js!';
+import { autoDetectResource, BaseTexture, Texture, Rectangle, Loader } from 'pixi.js';
 
 const { animations, spritesheets } = exportedData;
 
@@ -128,5 +128,4 @@ function getTexture (key) {
   return result;
 }
 
-
-module.exports = { textures, getTexture, load };
+export { textures, getTexture, load };
