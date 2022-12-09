@@ -63,6 +63,8 @@ for (const spritesheet of spritesheets) {
     const frameTexture = new Texture(atlasTexture.baseTexture, frame, orig, trim, data.rotated ? 2 : 0, data.anchor);
     Texture.addToCache(frameTexture, spriteKey);
 
+    textures[spriteKey] = frameTexture;
+
     atlasTextureMap[spriteKey] = sheetPath;
     textureKeys.push(spriteKey);
   }
