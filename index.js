@@ -11,7 +11,7 @@ const { floor } = Math;
 
 for (const spritesheet of spritesheets) {
 
-  const sheetPath = spritesheet.meta.image;
+  const sheetPath = __webpack_public_path__ + spritesheet.meta.image;
   const { scale } = spritesheet.meta;
   const resolution = scale !== undefined ? parseFloat(scale) : 1;
 
