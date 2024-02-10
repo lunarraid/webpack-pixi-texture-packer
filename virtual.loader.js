@@ -1,4 +1,5 @@
-const plugin = require('./plugin');
+const pathModule = require('path');
+const plugin = require(pathModule.resolve(__dirname, './plugin.js'));
 
 function VirtualLoader () {
   this.cacheable && this.cacheable(false);
