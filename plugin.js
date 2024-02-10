@@ -9,7 +9,7 @@ const { interpolateName } = require('loader-utils');
 const SUPPORTED_EXT = [ '.png', '.jpg', '.jpeg' ];
 const SUPPORTED_EXT_MAP = SUPPORTED_EXT.reduce((extMap, ext) => (extMap[ext] = true) && extMap, {});
 
-const SpriteMetadataLoader = require(pathModule.resolve(__dirname, './SpriteMetadataLoader.js'));
+const SpriteMetadataLoader = require(pathModule.resolve(__dirname, './SpriteMetaDataLoader.js'));
 
 const ANIMATED_REGEX = /^((?:.*[/])*(?:[a-zA-Z0-9]+))_([a-zA-Z0-9]+)_\d+\.\w+$/;
 

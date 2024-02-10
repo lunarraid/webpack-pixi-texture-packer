@@ -1,6 +1,6 @@
 {
   "name": "@lunarraid/webpack-pixi-texture-packer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Webpack texture packer for PixiJS",
   "url": "https://github.com/lunarraid/webpack-pixi-texture-packer",
   "main": "index.js",
