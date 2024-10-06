@@ -1,5 +1,5 @@
 import exportedData from './virtual.loader.js!';
-import { autoDetectResource, BaseTexture, Texture, Rectangle, Loader } from 'pixi.js';
+import { autoDetectResource, BaseTexture, Rectangle, Texture } from '@pixi/core';
 
 const { animations, spritesheets } = exportedData;
 
@@ -130,4 +130,4 @@ function getTexture (key) {
   return result;
 }
 
-export { textures, getTexture, load };
+export { animations, textures, getTexture, load };
